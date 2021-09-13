@@ -6,6 +6,7 @@
         "builder": "*"
     },
     "files": [
+        "README.md",
         "lesson-1.md"
     ],
     "targetVersions": {
@@ -17,4 +18,3 @@
     ],
     "preferredEditor": "tsprj"
 }
-© 2021 GitHub, In
