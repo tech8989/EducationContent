@@ -8,7 +8,8 @@
     "files": [
         "README.md",
         "lesson-1.md",
-        "lesson-2.md"
+        "lesson-2.md",
+        "M-D01_1.md"
     ],
     "targetVersions": {
         "target": "1.6.8",
