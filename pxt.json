@@ -7,7 +7,8 @@
     },
     "files": [
         "README.md",
-        "tutorial/M-D01_1.md"
+        "M-D01_1.md",
+        "M-M31"
     ],
     "targetVersions": {
         "target": "1.6.8",
