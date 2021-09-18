@@ -7,8 +7,8 @@
     },
     "files": [
         "README.md",
-        "tutorial/M-D01_1.md",
         "tutorial/M-M31.md",
+        "tutorial/M-D01_1.md",
         "tutorial/M-P0D_1.md",
         "tutorial/M-P0D_2.md",
         "tutorial/M-P0D_3.md"
