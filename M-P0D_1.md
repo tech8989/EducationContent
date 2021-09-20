@@ -5,7 +5,7 @@
 ## Step 1		 	
 **「くりかえし」を使おう① **
 
-![img](https://teck89.xsrv.jp/tech89/course/minecraft_EE/img/M-P0D_1.png)
+![img](https://teck89.xsrv.jp/MEE_tutorial/img/M-P0D_1.png)
 
 ## Step 2		 	
 **エージェントを自分の位置に呼ぼう**  

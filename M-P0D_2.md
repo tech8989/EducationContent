@@ -12,7 +12,7 @@ player.onChat("tp", function () {
 **「くりかえし」を使おう②**  
 ダイヤモンドブロックの上に、tpコマンドでエージェントを呼んでから始めよう。
 
-![img](https://teck89.xsrv.jp/tech89/course/minecraft_EE/img/M-P0D_2.png)
+![img(https://teck89.xsrv.jp/MEE_tutorial/img/M-P0D_2.png)
 
 ## Step 2  
 **エージェントの向きを変えてすすませよう①**  

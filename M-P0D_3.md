@@ -11,7 +11,7 @@ player.onChat("tp", function () {
 ## Step 1  
 **「くりかえし」を使おう③ **  
 ・エメラルドブロックの上に、チャットコマンド"tp"でエージェントを呼んでから始めよう。
-![img](https://teck89.xsrv.jp/tech89/course/minecraft_EE/img/M-P0D_3.png)
+![img](https://teck89.xsrv.jp/MEE_tutorial/img/M-P0D_3.png)
 
 ## Step 2  
 **	エージェントに階段をのぼらせよう①**  
