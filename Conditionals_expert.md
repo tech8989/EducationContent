@@ -4,7 +4,7 @@
 
 ## Step 1
 **ピラミッドを作ろう**
-![agent build path](https://teck89.xsrv.jp/tech89/course/minecraft_EE/img/conditionals_expert.png)
+![agent build path](https://teck89.xsrv.jp/MEE_tutorial/img/conditionals_expert.png)
 ## Step 2
 **エージェントを自分の位置にもどすチャットコマンドを作ろう**
 
