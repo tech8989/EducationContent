@@ -7,7 +7,7 @@
 
 はじめに、``||player: チャットコマンドを入力した時||`` エージェントを自分の位置へ戻そう。
 
-![agent build path](https://teck89.xsrv.jp/tech89/course/minecraft_EE/img/forloops_expert.png)
+![agent build path](https://teck89.xsrv.jp/MEE_tutorial/img/forloops_expert.png)
 
 
 ```ghost

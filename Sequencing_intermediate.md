@@ -11,7 +11,7 @@
 ブロックを並べてカベを作り、幅1ブロックの道を作ります。  
 そのためのチャットコマンドを３つ作ります。
 
-![agent build path](https://teck89.xsrv.jp/tech89/course/minecraft_EE/img/sequencing_intermediate.png)
+![agent build path](https://teck89.xsrv.jp/MEE_tutorial/img/sequencing_intermediate.png)
 
 
 ## Step 2

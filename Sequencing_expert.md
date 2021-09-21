@@ -5,7 +5,7 @@
 ## Step 1
 ヤマネコのフェンスを作ろう。
 
-![agent build path](https://teck89.xsrv.jp/tech89/course/minecraft_EE/img/sequencing_expert.png)
+![agent build path](https://teck89.xsrv.jp/MEE_tutorial/img/sequencing_expert.png)
 
 
 ## Step 2

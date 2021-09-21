@@ -4,7 +4,7 @@
 
 ## Step 1
 **畑ににんじんを植えよう**  
-![agent build path](https://teck89.xsrv.jp/tech89/course/minecraft_EE/img/forloops_intermediate.png)
+![agent build path]((https://teck89.xsrv.jp/MEE_tutorial/img/forloops_intermediate.png)
 
 
 ## Step 2

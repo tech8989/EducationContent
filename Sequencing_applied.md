@@ -6,7 +6,7 @@
 レッドストーンを使った回路を完成させよう。  
 ボタンとレッドストーンパウダーを置いて、ボタンを押したら、ランプがつくようにしよう。　　
 
-![agent build path](https://teck89.xsrv.jp/tech89/course/minecraft_EE/img/sequencing_applied.png)
+![agent build path](https://teck89.xsrv.jp/MEE_tutorial/img/sequencing_applied.png)
 
 
 ```ghost
