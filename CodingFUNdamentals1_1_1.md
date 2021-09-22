@@ -3,7 +3,7 @@
 ### @explicitHints 1
 
 ## Step 1
-ƒG[ƒWƒFƒ“ƒgI‚æ‚¤‚±‚»I
+ã‚¨ãƒ¼ã‚¸ã‚§ãƒ³ãƒˆï¼ã‚ˆã†ã“ãï¼
 
 
 ```ghost

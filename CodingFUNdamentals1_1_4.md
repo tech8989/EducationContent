@@ -9,9 +9,9 @@
 # Program the Agent to move up to the gold plate!
 
 ## Step 1
-�G�[�W�F���g�ɐ��������ǂ点�āA���̊������ӂ܂��悤�B  
-�����ɁA�I�����W�̓��̐�ɂ��銴���������łӂ����B  
-�ǂ����10�b�ȓ��ɂӂނ��Ƃ��ł���΁A**�N���A**����I
+エージェントに青い道をたどらせて、金の感圧板をふませよう。  
+同時に、オレンジの道の先にある感圧板を自分でふもう。  
+どちらも10秒以内にふむことができれば、**クリア**だよ！
 
 ```ghost
 player.onChat("last", function () {

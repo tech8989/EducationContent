@@ -9,16 +9,16 @@
 # Program the Agent to move to the gold plate!
 
 ## Step 1
-�G�[�W�F���g�𓮂����āA���̊������ӂ܂��悤�B  
+エージェントを動かして、金の感圧板をふませよう。  
   
-``||player:�`���b�g�R�}���h����͂�����||`` �̒��ɁA``||agent:�G�[�W�F���g��O�Ɉړ�||``�������B 
+``||player:チャットコマンドを入力した時||`` の中に、``||agent:エージェントを前に移動||``を入れるよ。 
 
 
 #### ~ tutorialhint 
-�G�[�W�F���g�ɋ��̊������ӂ܂���ɂ͉��u���b�N�O�Ɉړ�����΁A�������ȁH  
-``||agent:�G�[�W�F���g��O�Ɉړ�||`` �̐�����ς��悤�I  
+エージェントに金の感圧板をふませるには何ブロック前に移動すれば、いいかな？  
+``||agent:エージェントを前に移動||`` の数字を変えよう！  
   
-�G�[�W�F���g�̌����́A``||agent:�G�[�W�F���g�̌�����ς���||``���g���ĕς�����I
+エージェントの向きは、``||agent:エージェントの向きを変える||``を使って変えれるよ！
 
 
 

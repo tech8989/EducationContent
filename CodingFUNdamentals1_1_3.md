@@ -9,11 +9,11 @@
 # Program the Agent to move up to the gold plate!
 
 ## Step 1
-�G�[�W�F���g��**�㉺**�Ɉړ����āA���̊������ӂ܂��悤
+エージェントを**上下**に移動して、金の感圧板をふませよう
 #### ~ tutorialhint 
-``||agent:�G�[�W�F���g��O�Ɉړ�||`` �́u�O�v�̕����͕ς��邱�Ƃ��ł����B 
+``||agent:エージェントを前に移動||`` の「前」の部分は変えることができるよ。 
    
-�G�[�W�F���g�ɋ��̊������ӂ܂���ɂ͂ǂ��ړ�����΁A�������ȁH
+エージェントに金の感圧板をふませるにはどう移動すれば、いいかな？
 
 ```ghost
 player.onChat("up", function () {
