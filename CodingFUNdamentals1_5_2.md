@@ -15,7 +15,7 @@
   
 プログラムを追加して、エージェントを動かし、金の感圧板をふませよう。  
 エージェントがたどる道はこのようになるよ。
-![img](https://teck89.xsrv.jp/tech89/course/minecraft_EE/img/fun_1_5_1.png)
+![img](https://teck89.xsrv.jp/MEE_tutorial/img/fun_1_5_1.png)
 
 #### ~ tutorialhint 
 ```blocks
