@@ -8,17 +8,17 @@
 # Suspicious Crates
 
 ## Step 1
-��������̖ؔ��̊Ԃ�ʂ��āA�ʂ��܂ꂽ�G��̈ꕔ���Ȃ������ׂ悤�B  
-�G�悪��������A���̔������킵�āA��ɓ���悤�B  
+たくさんの木箱の間を通って、ぬすまれた絵画の一部がないか調べよう。  
+絵画があったら、その箱をこわして、手に入れよう。  
   
-�����͉��p�^�[��������̂ŁA�����ȃp�^�[�����l���Ă݂悤�B  
+答えは何パターンもあるので、いろんなパターンを考えてみよう。  
   
-**�u���b�N�̐���:**  
-``||ww:Move [forward] by (0)||`` �����_�[�E�[�}�����w�肵���u���b�N�� ��������B  
-�@�@���@forward=�O�@back=���@left=���@right=�E  
-``||ww:Turn [��]||`` �����_�[�E�[�}���̌�����ς���B  
-``||ww:painting inside crate [forward]||`` �ؔ��̒��ɊG�悪�Ȃ����𒲂ׂ�B  
-``||ww:Break crate [forward]||`` �ؔ����󂷁B
+**ブロックの説明:**  
+``||ww:Move [forward] by (0)||`` ワンダーウーマンを指定したブロック分 動かせる。  
+　　※　forward=前　back=後ろ　left=左　right=右  
+``||ww:Turn [左]||`` ワンダーウーマンの向きを変える。  
+``||ww:painting inside crate [forward]||`` 木箱の中に絵画がないかを調べる。  
+``||ww:Break crate [forward]||`` 木箱を壊す。
 
 
 ```ghost

@@ -8,17 +8,17 @@
 # Hidden in Plain Sight
 
 ## Step 1
-�Q���҂ɂ܂��ꂽ�D�_���݂��āA���܂��悤�B  
-����ŁA�G�悪���ׂČ������B
+参加者にまぎれた泥棒をみつけて、つかまえよう。  
+これで、絵画がすべて見つかるよ。
   
-�����͉��p�^�[��������̂ŁA�����ȃp�^�[�����l���Ă݂悤�B  
+答えは何パターンもあるので、いろんなパターンを考えてみよう。  
   
-**�u���b�N�̐���:**  
-``||ww:Move [forward] by (0)||`` �����_�[�E�[�}�����w�肵���u���b�N�� ��������B  
-�@�@���@forward=�O�@back=���@left=���@right=�E  
-``||ww:Turn [��]||`` �����_�[�E�[�}���̌�����ς���B  
-``||ww:attendee is the thief [forward]||`` �w�肵�������̎Q���҂��D�_�����ׂ���B  
-``||ww:Lasso thief [forward]||`` �w�肵�������̓D�_��߂܂���B
+**ブロックの説明:**  
+``||ww:Move [forward] by (0)||`` ワンダーウーマンを指定したブロック分 動かせる。  
+　　※　forward=前　back=後ろ　left=左　right=右  
+``||ww:Turn [左]||`` ワンダーウーマンの向きを変える。  
+``||ww:attendee is the thief [forward]||`` 指定した方向の参加者が泥棒か調べられる。  
+``||ww:Lasso thief [forward]||`` 指定した方向の泥棒を捕まえる。
 
 ```ghost
 player.onChat("run", function () {

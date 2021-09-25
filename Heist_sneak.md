@@ -8,15 +8,15 @@
 # Stealth Mission
 
 ## Step 1
-ƒAƒ‰[ƒ€‚ª‚È‚ç‚È‚¢‚æ‚¤‚ÉƒŒ[ƒU[‚ð‚³‚¯‚ÄA”Æl‚ÌŒã‚ë‚És‚¯‚é‚æ‚¤‚ÉA  
-ƒƒ“ƒ_[ƒE[ƒ}ƒ“‚ð“®‚©‚»‚¤B  
-Œã‚ë‚É‚Â‚¢‚½‚çA``||ww:Takedown criminal [forward]||`` ‚ðŽg‚Á‚ÄA”Æl‚ð“|‚»‚¤B
+ã‚¢ãƒ©ãƒ¼ãƒ ãŒãªã‚‰ãªã„ã‚ˆã†ã«ãƒ¬ãƒ¼ã‚¶ãƒ¼ã‚’ã•ã‘ã¦ã€çŠ¯äººã®å¾Œã‚ã«è¡Œã‘ã‚‹ã‚ˆã†ã«ã€  
+ãƒ¯ãƒ³ãƒ€ãƒ¼ã‚¦ãƒ¼ãƒžãƒ³ã‚’å‹•ã‹ãã†ã€‚  
+å¾Œã‚ã«ã¤ã„ãŸã‚‰ã€``||ww:Takedown criminal [forward]||`` ã‚’ä½¿ã£ã¦ã€çŠ¯äººã‚’å€’ãã†ã€‚
   
-**ƒuƒƒbƒN‚Ìà–¾:**  
-``||ww:Move [forward] by (0)||`` ƒƒ“ƒ_[ƒE[ƒ}ƒ“‚ðŽw’è‚µ‚½ƒuƒƒbƒN•ª “®‚©‚¹‚éB  
-@@¦@forward=‘O@back=Œã‚ë@left=¶@right=‰E  
-``||ww:Turn [¶]||`` ƒƒ“ƒ_[ƒE[ƒ}ƒ“‚ÌŒü‚«‚ð•Ï‚¦‚éB  
-``||ww:Takedown criminal [forward]||`` Žw’è‚µ‚½•ûŒü‚Ì”Æl‚ð“|‚·B
+**ãƒ–ãƒ­ãƒƒã‚¯ã®èª¬æ˜Ž:**  
+``||ww:Move [forward] by (0)||`` ãƒ¯ãƒ³ãƒ€ãƒ¼ã‚¦ãƒ¼ãƒžãƒ³ã‚’æŒ‡å®šã—ãŸãƒ–ãƒ­ãƒƒã‚¯åˆ† å‹•ã‹ã›ã‚‹ã€‚  
+ã€€ã€€â€»ã€€forward=å‰ã€€back=å¾Œã‚ã€€left=å·¦ã€€right=å³  
+``||ww:Turn [å·¦]||`` ãƒ¯ãƒ³ãƒ€ãƒ¼ã‚¦ãƒ¼ãƒžãƒ³ã®å‘ãã‚’å¤‰ãˆã‚‹ã€‚  
+``||ww:Takedown criminal [forward]||`` æŒ‡å®šã—ãŸæ–¹å‘ã®çŠ¯äººã‚’å€’ã™ã€‚
 
 #### ~ tutorialhint 
 ```blocks

@@ -8,14 +8,14 @@
 # Beams of Color
 
 ## Step 1
-•Ç‚É‚ ‚éF•t‚«ƒuƒƒbƒN‚Æ“¯‚¶F‡‚É‚È‚é‚æ‚¤‚ÉAF•t‚«ƒKƒ‰ƒX‚ð’u‚±‚¤B  
+å£ã«ã‚ã‚‹è‰²ä»˜ããƒ–ãƒ­ãƒƒã‚¯ã¨åŒã˜è‰²é †ã«ãªã‚‹ã‚ˆã†ã«ã€è‰²ä»˜ãã‚¬ãƒ©ã‚¹ã‚’ç½®ã“ã†ã€‚  
   
-**ƒuƒƒbƒN‚Ìà–¾:**  
-``||ww:Move [forward] by (0)||`` ƒƒ“ƒ_[ƒE[ƒ}ƒ“‚ðŽw’è‚µ‚½ƒuƒƒbƒN•ª “®‚©‚¹‚éB  
-@@¦@forward=‘O@back=Œã‚ë@left=¶@right=‰E  
-``||ww:Turn [¶]||`` ƒƒ“ƒ_[ƒE[ƒ}ƒ“‚ÌŒü‚«‚ð•Ï‚¦‚éB  
-``||ww:Place [Yellow] Stained Glass [forward]||`` ƒƒ“ƒ_[ƒE[ƒ}ƒ“‚ÉƒKƒ‰ƒX‚ð’u‚©‚¹‚éB  
-@@¦@Yellow=‰©F@Lime=ƒ‰ƒCƒ€@Blue=Â@Red=Ô  
+**ãƒ–ãƒ­ãƒƒã‚¯ã®èª¬æ˜Ž:**  
+``||ww:Move [forward] by (0)||`` ãƒ¯ãƒ³ãƒ€ãƒ¼ã‚¦ãƒ¼ãƒžãƒ³ã‚’æŒ‡å®šã—ãŸãƒ–ãƒ­ãƒƒã‚¯åˆ† å‹•ã‹ã›ã‚‹ã€‚  
+ã€€ã€€â€»ã€€forward=å‰ã€€back=å¾Œã‚ã€€left=å·¦ã€€right=å³  
+``||ww:Turn [å·¦]||`` ãƒ¯ãƒ³ãƒ€ãƒ¼ã‚¦ãƒ¼ãƒžãƒ³ã®å‘ãã‚’å¤‰ãˆã‚‹ã€‚  
+``||ww:Place [Yellow] Stained Glass [forward]||`` ãƒ¯ãƒ³ãƒ€ãƒ¼ã‚¦ãƒ¼ãƒžãƒ³ã«ã‚¬ãƒ©ã‚¹ã‚’ç½®ã‹ã›ã‚‹ã€‚  
+ã€€ã€€â€»ã€€Yellow=é»„è‰²ã€€Lime=ãƒ©ã‚¤ãƒ ã€€Blue=é’ã€€Red=èµ¤  
 
 #### ~ tutorialhint 
 ```blocks

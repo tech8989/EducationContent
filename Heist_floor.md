@@ -8,13 +8,13 @@
 # Dance Floor
 
 ## Step 1
-�����_�[�E�[�}�����v���O�������āA�ǂɂ�����Ă���̂Ɠ����F���œ����悤�ɂ��悤�B  
-��������΁A���̕ǂɂ���Ђ݂̂Ƃт炪�J����B
+ワンダーウーマンをプログラムして、壁にかかれているのと同じ色順で動くようにしよう。  
+そうすれば、奥の壁にあるひみつのとびらが開くよ。
 
-**�u���b�N�̐���:**  
-``||ww:Move [forward] by (0)||`` �����_�[�E�[�}�����w�肵���u���b�N�� ��������B  
-�@�@���@forward=�O�@back=���@left=���@right=�E  
-``||ww:Turn [��]||`` �����_�[�E�[�}���̌�����ς���B  
+**ブロックの説明:**  
+``||ww:Move [forward] by (0)||`` ワンダーウーマンを指定したブロック分 動かせる。  
+　　※　forward=前　back=後ろ　left=左　right=右  
+``||ww:Turn [左]||`` ワンダーウーマンの向きを変える。  
 
 #### ~ tutorialhint 
 ```blocks
