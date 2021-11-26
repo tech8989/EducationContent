@@ -73,51 +73,34 @@ player.onChat("break", function () {
 
 
 ## Step 6		 	
-**条件を変えて、右に曲がるプログラムを作ろう**  
-・「チャットコマンドbreakを入力した時」を複製して、チャットコマンドを”**break2**”に変えよう。  
+**条件を追加して、右に曲がるプログラムを作ろう**  
+・「くりかえし」の先頭に新しく``||logic:もし真なら||``を追加しよう。
 
-## Step 7		 	
-**前のブロックがダイヤモンドの場合、こわして拾うようにしよう**  
-・「もし～なら」の条件を＜``||agent:エージェントにどんなブロックか前を確認させる||``= ``||blocks:ダイヤモンドブロック||``＞に変えよう。  　
-
-### ~ tutorialHint
-```blocks
-player.onChat("break2", function () {
-    for (let index = 0; index < 20; index++) {
-        if (agent.inspect(AgentInspection.Block, FORWARD) == DIAMOND_BLOCK) {
-            agent.destroy(FORWARD)
-            agent.collectAll()
-        }
-        agent.move(FORWARD, 1)
-    }
-})
-```
-## Step 8		 	
+## Step 7
 **前のブロックが岩盤の場合、右に曲がろう**  
-・「もし～なら」に条件分岐を追加しよう。（※）  
-・``||logic:でなければもし～なら||``の条件を＜``||agent:エージェントにどんなブロックか前を確認させる||``= ``||blocks:岩盤||``＞にしよう。  
-・「でなければもし～なら」の中に、``||agent:エージェントの向きを左に変える||``を追加し、向きを＜**右**＞にしよう。  
+・「もし真なら」の条件を＜``||agent:エージェントにどんなブロックか前を確認させる||``= ``||blocks:岩盤||``＞にしよう。  
+・その中に``||logic:エージェントの向きを左に変える||``を追加し、方向を「**右**」に変えよう
 
 ### ~ tutorialHint
-※「もし~なら」の「＋」をおすたび、条件によって処理をいくつもわけれるように、別の条件を入力できる場所が追加されていくよ。  
-　「でなければもし～なら」は、「＋」を2回以上おすとでるよ。  
-　今回、「でなければ」は不要なので、「ー」をおして消そう。 
 
 ```blocks
-player.onChat("break2", function () {
+player.onChat("break", function () {
     for (let index = 0; index < 20; index++) {
-        if (agent.inspect(AgentInspection.Block, FORWARD) == DIAMOND_BLOCK) {
-            agent.destroy(FORWARD)
-            agent.collectAll()
-        } else if (agent.inspect(AgentInspection.Block, FORWARD) == BEDROCK) {
+        if (agent.inspect(AgentInspection.Block, FORWARD) == BEDROCK) {
             agent.turn(RIGHT_TURN)
         }
+
+        if (agent.detect(AgentDetection.Block, FORWARD)) {
+            agent.destroy(FORWARD)
+            agent.collectAll()
+        }
         agent.move(FORWARD, 1)
     }
 })
+
 ```
 
 ## Step 9		 	
 **曲がったコースで実行しよう**  
-・ワールドの曲がったコースの金ブロックにエージェントを呼び、”break2”を実行してみよう。  
+・ワールドの曲がったコースの金ブロックにエージェントを呼び、”break”を実行してみよう。  
 　⇒エージェントがダイヤモンドブロックをこわして拾い、感圧板の上まで移動できれば、成功だ！
