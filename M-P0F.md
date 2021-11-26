@@ -31,7 +31,6 @@ player.onChat("tp", function () {
 **高さ2ブロックで掘らせよう**  
 ・「くりかえし」の中に次の処理を追加しよう。  
 ・``||agent:エージェントに前を破壊させる||``  
-・``||agent:エージェントに前を破壊させる||``を追加して、方向を[**上**]に変えよう。  
 ・``||agent:エージェントに全てひろわせる||``  
 ・``||agent:エージェントを前に移動させる||`` 
 
@@ -41,7 +40,6 @@ player.onChat("tp", function () {
 player.onChat("count", function () {
     for (let index = 0; index < 20; index++) {
         agent.destroy(FORWARD)
-        agent.destroy(UP)
         agent.collectAll()
         agent.move(FORWARD, 1)
     }
@@ -61,7 +59,6 @@ player.onChat("count", function () {
     cnt = 0
     for (let index = 0; index < 20; index++) {
         agent.destroy(FORWARD)
-        agent.destroy(UP)
         agent.collectAll()
         agent.move(FORWARD, 1)
     }
@@ -84,7 +81,6 @@ player.onChat("count", function () {
             cnt += 1
         }
         agent.destroy(FORWARD)
-        agent.destroy(UP)
         agent.collectAll()
         agent.move(FORWARD, 1)
     }
@@ -92,32 +88,6 @@ player.onChat("count", function () {
 ```
 
 ## Step 7		 	
-**掘ったダイヤモンドブロックの数を数えよう**  
-・「もし~なら」の下に、「もし~なら」を複製して追加しよう。  
-・2つ目の「もし~なら」の条件を「エージェントにどんなブロックか”**上**”を確認させる」に変えよう。
-
-### ~ tutorialHint
-
-```blocks
-let cnt = 0
-player.onChat("count", function () {
-    cnt = 0
-    for (let index = 0; index < 20; index++) {
-        if (agent.inspect(AgentInspection.Block, FORWARD) == DIAMOND_ORE) {
-            cnt += 1
-        }
-        if (agent.inspect(AgentInspection.Block, UP) == DIAMOND_ORE) {
-            cnt += 1
-        }
-        agent.destroy(FORWARD)
-        agent.destroy(UP)
-        agent.collectAll()
-        agent.move(FORWARD, 1)
-    }
-})
-```
-
-## Step 8		 	
 **掘ったダイヤモンドブロックの数を表示しよう**  
 ・「くりかえし20回」の下に、``||player:メッセージを送信する||``を追加し、メッセージを``||text:文字列をつなげる||``に変えよう。  
 ・つなげる1つ目の文字列を``||変数cnt||``に、2つ目の文字列を”**個あった！**”に変えよう。
@@ -131,11 +101,7 @@ player.onChat("count", function () {
         if (agent.inspect(AgentInspection.Block, FORWARD) == DIAMOND_ORE) {
             cnt += 1
         }
-        if (agent.inspect(AgentInspection.Block, UP) == DIAMOND_ORE) {
-            cnt += 1
-        }
         agent.destroy(FORWARD)
-        agent.destroy(UP)
         agent.collectAll()
         agent.move(FORWARD, 1)
     }
